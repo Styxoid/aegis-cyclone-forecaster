@@ -1,0 +1,241 @@
+{
+  "type": "FeatureCollection",
+  "name": "DiscreteSurgePolygons",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.75,
+              19.76
+            ],
+            [
+              85.83,
+              19.79
+            ],
+            [
+              85.95,
+              19.82
+            ],
+            [
+              86.1,
+              19.85
+            ],
+            [
+              86.25,
+              19.92
+            ],
+            [
+              86.35,
+              20.05
+            ],
+            [
+              86.55,
+              20.2
+            ],
+            [
+              86.72,
+              20.3
+            ],
+            [
+              86.75,
+              20.28
+            ],
+            [
+              86.58,
+              20.15
+            ],
+            [
+              86.38,
+              19.98
+            ],
+            [
+              86.12,
+              19.83
+            ],
+            [
+              85.96,
+              19.8
+            ],
+            [
+              85.82,
+              19.77
+            ],
+            [
+              85.75,
+              19.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "SURGE_CONTOUR_05M",
+        "surge_level_m": 0.75,
+        "severity": "LOW",
+        "name": "0.75m Surge Inundation Envelope (Tidal Flats & Spits)",
+        "color": "#00bcd4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.74,
+              19.755
+            ],
+            [
+              85.81,
+              19.8
+            ],
+            [
+              85.92,
+              19.835
+            ],
+            [
+              86.08,
+              19.87
+            ],
+            [
+              86.22,
+              19.96
+            ],
+            [
+              86.3,
+              20.12
+            ],
+            [
+              86.52,
+              20.24
+            ],
+            [
+              86.69,
+              20.32
+            ],
+            [
+              86.73,
+              20.27
+            ],
+            [
+              86.5,
+              20.12
+            ],
+            [
+              86.32,
+              19.94
+            ],
+            [
+              86.09,
+              19.84
+            ],
+            [
+              85.91,
+              19.81
+            ],
+            [
+              85.8,
+              19.78
+            ],
+            [
+              85.74,
+              19.755
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "SURGE_CONTOUR_15M",
+        "surge_level_m": 1.75,
+        "severity": "MEDIUM",
+        "name": "1.75m Surge Inundation Envelope (Marine Drive & Estuaries)",
+        "color": "#0288d1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.73,
+              19.75
+            ],
+            [
+              85.8,
+              19.815
+            ],
+            [
+              85.85,
+              19.835
+            ],
+            [
+              85.95,
+              19.86
+            ],
+            [
+              86.1,
+              19.91
+            ],
+            [
+              86.24,
+              20.02
+            ],
+            [
+              86.4,
+              20.18
+            ],
+            [
+              86.62,
+              20.31
+            ],
+            [
+              86.71,
+              20.34
+            ],
+            [
+              86.74,
+              20.25
+            ],
+            [
+              86.52,
+              20.1
+            ],
+            [
+              86.35,
+              19.9
+            ],
+            [
+              86.12,
+              19.82
+            ],
+            [
+              85.93,
+              19.79
+            ],
+            [
+              85.79,
+              19.76
+            ],
+            [
+              85.73,
+              19.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "SURGE_CONTOUR_35M",
+        "surge_level_m": 3.5,
+        "severity": "CRITICAL",
+        "name": "3.50m Peak Surge Landfall Inundation Envelope (Puri Core & Ersama Basin)",
+        "color": "#d32f2f"
+      }
+    }
+  ]
+}

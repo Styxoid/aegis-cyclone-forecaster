@@ -1,0 +1,391 @@
+{
+  "type": "FeatureCollection",
+  "name": "CycloneFaniTrack",
+  "metadata": {
+    "storm_name": "FANI",
+    "year": 2019,
+    "ocean_basin": "North Indian Ocean",
+    "landfall_point": [
+      85.85,
+      19.8
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            84.95,
+            18.05
+          ],
+          [
+            85.12,
+            18.32
+          ],
+          [
+            85.3,
+            18.62
+          ],
+          [
+            85.48,
+            18.95
+          ],
+          [
+            85.65,
+            19.28
+          ],
+          [
+            85.76,
+            19.55
+          ],
+          [
+            85.85,
+            19.8
+          ],
+          [
+            86.02,
+            20.05
+          ],
+          [
+            86.25,
+            20.28
+          ],
+          [
+            86.52,
+            20.52
+          ],
+          [
+            86.82,
+            20.8
+          ],
+          [
+            87.15,
+            21.1
+          ],
+          [
+            87.55,
+            21.45
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cyclone Fani Trajectory Line",
+        "total_steps": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.95,
+          18.05
+        ]
+      },
+      "properties": {
+        "step_id": 0,
+        "t_offset_hours": -12,
+        "timestamp_utc": "2019-05-02T15:00:00Z",
+        "latitude": 18.05,
+        "longitude": 84.95,
+        "central_pressure_hpa": 932.0,
+        "max_sustained_wind_kmph": 215.0,
+        "radius_max_winds_km": 28.0,
+        "forward_speed_kmph": 17.5,
+        "bearing_degrees": 38.0,
+        "category": "Extremely Severe Cyclonic Storm (Cat 4-5)",
+        "description": "Approaching southwest of Puri over open Bay of Bengal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.12,
+          18.32
+        ]
+      },
+      "properties": {
+        "step_id": 1,
+        "t_offset_hours": -10,
+        "timestamp_utc": "2019-05-02T17:00:00Z",
+        "latitude": 18.32,
+        "longitude": 85.12,
+        "central_pressure_hpa": 932.0,
+        "max_sustained_wind_kmph": 215.0,
+        "radius_max_winds_km": 28.0,
+        "forward_speed_kmph": 18.0,
+        "bearing_degrees": 37.0,
+        "category": "Extremely Severe Cyclonic Storm",
+        "description": "Outer rainbands begin interacting with southern Odisha coast"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3,
+          18.62
+        ]
+      },
+      "properties": {
+        "step_id": 2,
+        "t_offset_hours": -8,
+        "timestamp_utc": "2019-05-02T19:00:00Z",
+        "latitude": 18.62,
+        "longitude": 85.3,
+        "central_pressure_hpa": 935.0,
+        "max_sustained_wind_kmph": 210.0,
+        "radius_max_winds_km": 29.0,
+        "forward_speed_kmph": 18.2,
+        "bearing_degrees": 36.0,
+        "category": "Extremely Severe Cyclonic Storm",
+        "description": "Storm surge setup begins in Chilika Lake and Devi estuary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.48,
+          18.95
+        ]
+      },
+      "properties": {
+        "step_id": 3,
+        "t_offset_hours": -6,
+        "timestamp_utc": "2019-05-02T21:00:00Z",
+        "latitude": 18.95,
+        "longitude": 85.48,
+        "central_pressure_hpa": 937.0,
+        "max_sustained_wind_kmph": 205.0,
+        "radius_max_winds_km": 30.0,
+        "forward_speed_kmph": 19.0,
+        "bearing_degrees": 35.0,
+        "category": "Extremely Severe Cyclonic Storm",
+        "description": "Tropical storm-force winds (65+ kmph) reach Puri shoreline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.65,
+          19.28
+        ]
+      },
+      "properties": {
+        "step_id": 4,
+        "t_offset_hours": -4,
+        "timestamp_utc": "2019-05-02T23:00:00Z",
+        "latitude": 19.28,
+        "longitude": 85.65,
+        "central_pressure_hpa": 940.0,
+        "max_sustained_wind_kmph": 200.0,
+        "radius_max_winds_km": 30.0,
+        "forward_speed_kmph": 19.5,
+        "bearing_degrees": 34.0,
+        "category": "Extremely Severe Cyclonic Storm",
+        "description": "Hurricane-force winds reach Puri; surge reaches +1.5m MSL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.76,
+          19.55
+        ]
+      },
+      "properties": {
+        "step_id": 5,
+        "t_offset_hours": -2,
+        "timestamp_utc": "2019-05-03T01:00:00Z",
+        "latitude": 19.55,
+        "longitude": 85.76,
+        "central_pressure_hpa": 945.0,
+        "max_sustained_wind_kmph": 195.0,
+        "radius_max_winds_km": 32.0,
+        "forward_speed_kmph": 20.0,
+        "bearing_degrees": 32.0,
+        "category": "Extremely Severe Cyclonic Storm",
+        "description": "Eyewall approaches Puri beach; coastal 33kV substations begin tripping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.85,
+          19.8
+        ]
+      },
+      "properties": {
+        "step_id": 6,
+        "t_offset_hours": 0,
+        "timestamp_utc": "2019-05-03T03:00:00Z",
+        "latitude": 19.8,
+        "longitude": 85.85,
+        "central_pressure_hpa": 950.0,
+        "max_sustained_wind_kmph": 185.0,
+        "radius_max_winds_km": 32.0,
+        "forward_speed_kmph": 20.5,
+        "bearing_degrees": 30.0,
+        "category": "Extremely Severe Cyclonic Storm (Landfall)",
+        "description": "LANDFALL at Puri. Peak surge of +3.5m MSL. Complete grid disruption."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.02,
+          20.05
+        ]
+      },
+      "properties": {
+        "step_id": 7,
+        "t_offset_hours": 2,
+        "timestamp_utc": "2019-05-03T05:00:00Z",
+        "latitude": 20.05,
+        "longitude": 86.02,
+        "central_pressure_hpa": 962.0,
+        "max_sustained_wind_kmph": 155.0,
+        "radius_max_winds_km": 35.0,
+        "forward_speed_kmph": 21.0,
+        "bearing_degrees": 28.0,
+        "category": "Very Severe Cyclonic Storm",
+        "description": "Inland decay over Khordha/Bhubaneswar; high surge pushing up Mahanadi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.25,
+          20.28
+        ]
+      },
+      "properties": {
+        "step_id": 8,
+        "t_offset_hours": 4,
+        "timestamp_utc": "2019-05-03T07:00:00Z",
+        "latitude": 20.28,
+        "longitude": 86.25,
+        "central_pressure_hpa": 974.0,
+        "max_sustained_wind_kmph": 135.0,
+        "radius_max_winds_km": 38.0,
+        "forward_speed_kmph": 22.0,
+        "bearing_degrees": 26.0,
+        "category": "Severe Cyclonic Storm",
+        "description": "Eye moving towards Jagatsinghpur; Paradip port reports 130 kmph gusts"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.52,
+          20.52
+        ]
+      },
+      "properties": {
+        "step_id": 9,
+        "t_offset_hours": 6,
+        "timestamp_utc": "2019-05-03T09:00:00Z",
+        "latitude": 20.52,
+        "longitude": 86.52,
+        "central_pressure_hpa": 984.0,
+        "max_sustained_wind_kmph": 115.0,
+        "radius_max_winds_km": 42.0,
+        "forward_speed_kmph": 23.0,
+        "bearing_degrees": 25.0,
+        "category": "Cyclonic Storm",
+        "description": "Passing over Paradip & Kendrapada; storm surge receding at Puri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.82,
+          20.8
+        ]
+      },
+      "properties": {
+        "step_id": 10,
+        "t_offset_hours": 8,
+        "timestamp_utc": "2019-05-03T11:00:00Z",
+        "latitude": 20.8,
+        "longitude": 86.82,
+        "central_pressure_hpa": 992.0,
+        "max_sustained_wind_kmph": 95.0,
+        "radius_max_winds_km": 45.0,
+        "forward_speed_kmph": 24.0,
+        "bearing_degrees": 25.0,
+        "category": "Cyclonic Storm",
+        "description": "Heading into Bhadrak and Balasore corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.15,
+          21.1
+        ]
+      },
+      "properties": {
+        "step_id": 11,
+        "t_offset_hours": 10,
+        "timestamp_utc": "2019-05-03T13:00:00Z",
+        "latitude": 21.1,
+        "longitude": 87.15,
+        "central_pressure_hpa": 998.0,
+        "max_sustained_wind_kmph": 80.0,
+        "radius_max_winds_km": 48.0,
+        "forward_speed_kmph": 25.0,
+        "bearing_degrees": 26.0,
+        "category": "Deep Depression",
+        "description": "Passing into West Bengal boundary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.55,
+          21.45
+        ]
+      },
+      "properties": {
+        "step_id": 12,
+        "t_offset_hours": 12,
+        "timestamp_utc": "2019-05-03T15:00:00Z",
+        "latitude": 21.45,
+        "longitude": 87.55,
+        "central_pressure_hpa": 1004.0,
+        "max_sustained_wind_kmph": 65.0,
+        "radius_max_winds_km": 50.0,
+        "forward_speed_kmph": 26.0,
+        "bearing_degrees": 28.0,
+        "category": "Depression",
+        "description": "System weakened over Gangetic West Bengal"
+      }
+    }
+  ]
+}

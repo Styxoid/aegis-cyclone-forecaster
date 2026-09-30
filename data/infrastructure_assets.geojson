@@ -1,0 +1,494 @@
+{
+  "type": "FeatureCollection",
+  "name": "InfrastructureAssets",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.832,
+          19.825
+        ]
+      },
+      "properties": {
+        "id": "SUB_PURI_132",
+        "name": "Puri 132/33kV Main Grid Substation",
+        "type": "SUBSTATION",
+        "district": "Puri",
+        "lat": 19.825,
+        "lon": 85.832,
+        "plinth_height_m": 1.2,
+        "wind_threshold_kmph": 175.0,
+        "capacity_mva": 160,
+        "criticality": "P1_INFRA_BACKBONE",
+        "description": "Primary high-voltage bulk transmission substation for Puri urban and pilgrim core."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.012,
+          19.998
+        ]
+      },
+      "properties": {
+        "id": "SUB_GOP_33",
+        "name": "Gop 33/11kV Distribution Substation",
+        "type": "SUBSTATION",
+        "district": "Puri",
+        "lat": 19.998,
+        "lon": 86.012,
+        "plinth_height_m": 0.8,
+        "wind_threshold_kmph": 160.0,
+        "capacity_mva": 25,
+        "criticality": "P1_INFRA_BACKBONE",
+        "description": "Feeds rural agricultural pumping and Gop Community Health Centre."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.985,
+          20.065
+        ]
+      },
+      "properties": {
+        "id": "SUB_NIMAPADA_33",
+        "name": "Nimapada 33/11kV Substation",
+        "type": "SUBSTATION",
+        "district": "Puri",
+        "lat": 20.065,
+        "lon": 85.985,
+        "plinth_height_m": 1.5,
+        "wind_threshold_kmph": 170.0,
+        "capacity_mva": 30,
+        "criticality": "P1_INFRA_BACKBONE",
+        "description": "Inland sub-transmission hub feeding Nimapada town and storage depots."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.672,
+          20.295
+        ]
+      },
+      "properties": {
+        "id": "SUB_PARADIP_132",
+        "name": "Paradip Port 132/33kV Substation",
+        "type": "SUBSTATION",
+        "district": "Jagatsinghpur",
+        "lat": 20.295,
+        "lon": 86.672,
+        "plinth_height_m": 1.1,
+        "wind_threshold_kmph": 175.0,
+        "capacity_mva": 120,
+        "criticality": "P1_INFRA_BACKBONE",
+        "description": "Powers Paradip Port logistics, IOCL oil refinery inputs, and regional coastal grid."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.535,
+          20.315
+        ]
+      },
+      "properties": {
+        "id": "SUB_KUJANG_33",
+        "name": "Kujang 33/11kV Substation",
+        "type": "SUBSTATION",
+        "district": "Jagatsinghpur",
+        "lat": 20.315,
+        "lon": 86.535,
+        "plinth_height_m": 1.0,
+        "wind_threshold_kmph": 165.0,
+        "capacity_mva": 20,
+        "criticality": "P1_INFRA_BACKBONE",
+        "description": "Feeds Kujang coastal belt, lift irrigation, and emergency shelters."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.265,
+          19.982
+        ]
+      },
+      "properties": {
+        "id": "SUB_ASTARANGA_33",
+        "name": "Astaranga 33/11kV Coastal Substation",
+        "type": "SUBSTATION",
+        "district": "Puri",
+        "lat": 19.982,
+        "lon": 86.265,
+        "plinth_height_m": 0.6,
+        "wind_threshold_kmph": 155.0,
+        "capacity_mva": 15,
+        "criticality": "P1_INFRA_BACKBONE",
+        "description": "Vulnerable low-lying fishing harbour substation near Devi river mouth."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.824,
+          19.814
+        ]
+      },
+      "properties": {
+        "id": "HOSP_PURI_DHH",
+        "name": "Puri District Headquarters Hospital (DHH)",
+        "type": "HOSPITAL",
+        "district": "Puri",
+        "lat": 19.814,
+        "lon": 85.824,
+        "plinth_height_m": 1.8,
+        "wind_threshold_kmph": 210.0,
+        "bed_capacity": 450,
+        "backup_generator_hours": 12.0,
+        "criticality": "P0_LIFE_CRITICAL",
+        "description": "Apex tertiary trauma, ICU, and surgical facility for Puri district."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.009,
+          20.002
+        ]
+      },
+      "properties": {
+        "id": "HOSP_GOP_CHC",
+        "name": "Gop Community Health Centre",
+        "type": "HOSPITAL",
+        "district": "Puri",
+        "lat": 20.002,
+        "lon": 86.009,
+        "plinth_height_m": 1.4,
+        "wind_threshold_kmph": 190.0,
+        "bed_capacity": 60,
+        "backup_generator_hours": 6.0,
+        "criticality": "P0_LIFE_CRITICAL",
+        "description": "Primary maternity and emergency stabilization center for Gop rural block."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.981,
+          20.071
+        ]
+      },
+      "properties": {
+        "id": "HOSP_NIMAPADA_SDH",
+        "name": "Nimapada Sub-Divisional Hospital",
+        "type": "HOSPITAL",
+        "district": "Puri",
+        "lat": 20.071,
+        "lon": 85.981,
+        "plinth_height_m": 2.2,
+        "wind_threshold_kmph": 220.0,
+        "bed_capacity": 100,
+        "backup_generator_hours": 14.0,
+        "criticality": "P0_LIFE_CRITICAL",
+        "description": "Inland backup hospital equipped with solar-diesel hybrid backup power."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.665,
+          20.288
+        ]
+      },
+      "properties": {
+        "id": "HOSP_PARADIP_PORT",
+        "name": "Paradip Port Trust Hospital",
+        "type": "HOSPITAL",
+        "district": "Jagatsinghpur",
+        "lat": 20.288,
+        "lon": 86.665,
+        "plinth_height_m": 1.6,
+        "wind_threshold_kmph": 205.0,
+        "bed_capacity": 120,
+        "backup_generator_hours": 10.0,
+        "criticality": "P0_LIFE_CRITICAL",
+        "description": "Industrial and maritime medical center serving 15,000 dock and port workers."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.531,
+          20.318
+        ]
+      },
+      "properties": {
+        "id": "HOSP_KUJANG_CHC",
+        "name": "Kujang Community Health Centre",
+        "type": "HOSPITAL",
+        "district": "Jagatsinghpur",
+        "lat": 20.318,
+        "lon": 86.531,
+        "plinth_height_m": 1.3,
+        "wind_threshold_kmph": 185.0,
+        "bed_capacity": 50,
+        "backup_generator_hours": 8.0,
+        "criticality": "P0_LIFE_CRITICAL",
+        "description": "Key emergency medical outpost for Ersama and Kujang cyclone belts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.815,
+          19.832
+        ]
+      },
+      "properties": {
+        "id": "WATER_PURI_MAIN",
+        "name": "Puri Municipal Water Treatment Plant",
+        "type": "WATER_PUMP",
+        "district": "Puri",
+        "lat": 19.832,
+        "lon": 85.815,
+        "plinth_height_m": 1.0,
+        "wind_threshold_kmph": 180.0,
+        "capacity_mld": 45,
+        "criticality": "P1_INFRA_BACKBONE",
+        "description": "Treats sweet water aquifer supplies for 200,000 Puri residents and hospitals."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.025,
+          20.015
+        ]
+      },
+      "properties": {
+        "id": "WATER_GOP_LIFT",
+        "name": "Kushabhadra River Intake & Lift Station",
+        "type": "WATER_PUMP",
+        "district": "Puri",
+        "lat": 20.015,
+        "lon": 86.025,
+        "plinth_height_m": 0.7,
+        "wind_threshold_kmph": 170.0,
+        "capacity_mld": 15,
+        "criticality": "P1_INFRA_BACKBONE",
+        "description": "Pumps potable canal water to Gop and surrounding 40 gram panchayats."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.62,
+          20.301
+        ]
+      },
+      "properties": {
+        "id": "WATER_PARADIP_INTAKE",
+        "name": "Taladanda Canal Water Intake & Treatment",
+        "type": "WATER_PUMP",
+        "district": "Jagatsinghpur",
+        "lat": 20.301,
+        "lon": 86.62,
+        "plinth_height_m": 1.2,
+        "wind_threshold_kmph": 185.0,
+        "capacity_mld": 60,
+        "criticality": "P1_INFRA_BACKBONE",
+        "description": "Primary drinking and industrial raw water intake for Paradip municipal area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.115,
+          19.872
+        ]
+      },
+      "properties": {
+        "id": "SHELTER_CHANDRABHAGA",
+        "name": "Chandrabhaga Multipurpose Cyclone Shelter",
+        "type": "SHELTER",
+        "district": "Puri",
+        "lat": 19.872,
+        "lon": 86.115,
+        "plinth_height_m": 3.5,
+        "wind_threshold_kmph": 240.0,
+        "capacity_persons": 2500,
+        "criticality": "P3_CIVIC_SHELTER",
+        "description": "Engineered two-storey reinforced concrete cyclone refuge with stilt ground floor."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.258,
+          19.975
+        ]
+      },
+      "properties": {
+        "id": "SHELTER_ASTARANGA",
+        "name": "Astaranga Coastal Refuge Shelter",
+        "type": "SHELTER",
+        "district": "Puri",
+        "lat": 19.975,
+        "lon": 86.258,
+        "plinth_height_m": 3.0,
+        "wind_threshold_kmph": 230.0,
+        "capacity_persons": 1800,
+        "criticality": "P3_CIVIC_SHELTER",
+        "description": "High-capacity concrete shelter equipped with hand-cranked satellite radios."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.805,
+          19.789
+        ]
+      },
+      "properties": {
+        "id": "SHELTER_PURI_BALIAPANDA",
+        "name": "Baliapanda Cyclone Shelter",
+        "type": "SHELTER",
+        "district": "Puri",
+        "lat": 19.789,
+        "lon": 85.805,
+        "plinth_height_m": 2.8,
+        "wind_threshold_kmph": 230.0,
+        "capacity_persons": 3000,
+        "criticality": "P3_CIVIC_SHELTER",
+        "description": "Designated for coastal fishing hamlets along Puri's vulnerable southern spit."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.485,
+          20.198
+        ]
+      },
+      "properties": {
+        "id": "SHELTER_ERSAMA_MCS",
+        "name": "Ersama Block Multipurpose Shelter",
+        "type": "SHELTER",
+        "district": "Jagatsinghpur",
+        "lat": 20.198,
+        "lon": 86.485,
+        "plinth_height_m": 3.8,
+        "wind_threshold_kmph": 250.0,
+        "capacity_persons": 3500,
+        "criticality": "P3_CIVIC_SHELTER",
+        "description": "Historical high-plinth fortress shelter constructed following the 1999 Super Cyclone."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.645,
+          20.278
+        ]
+      },
+      "properties": {
+        "id": "SHELTER_PARADIP_LOCK",
+        "name": "Paradip Lock Gate Cyclone Shelter",
+        "type": "SHELTER",
+        "district": "Jagatsinghpur",
+        "lat": 20.278,
+        "lon": 86.645,
+        "plinth_height_m": 3.2,
+        "wind_threshold_kmph": 240.0,
+        "capacity_persons": 2200,
+        "criticality": "P3_CIVIC_SHELTER",
+        "description": "Emergency refuge for informal slum settlements near port canal lock gates."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.845,
+          19.835
+        ]
+      },
+      "properties": {
+        "id": "FUEL_PURI_DEPOT",
+        "name": "Puri IOCL Emergency Fuel Reserves",
+        "type": "FUEL_DEPOT",
+        "district": "Puri",
+        "lat": 19.835,
+        "lon": 85.845,
+        "plinth_height_m": 1.5,
+        "wind_threshold_kmph": 200.0,
+        "capacity_kl": 500,
+        "criticality": "P2_LOGISTICS",
+        "description": "Main diesel supply yard for district emergency generators and hospital tankers."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.68,
+          20.285
+        ]
+      },
+      "properties": {
+        "id": "FUEL_PARADIP_TERMINAL",
+        "name": "Paradip Strategic Fuel Bulk Terminal",
+        "type": "FUEL_DEPOT",
+        "district": "Jagatsinghpur",
+        "lat": 20.285,
+        "lon": 86.68,
+        "plinth_height_m": 2.5,
+        "wind_threshold_kmph": 220.0,
+        "capacity_kl": 5000,
+        "criticality": "P2_LOGISTICS",
+        "description": "Massive coastal petroleum storage supporting maritime, rail, and road tankers."
+      }
+    }
+  ]
+}

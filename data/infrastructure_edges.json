@@ -1,0 +1,116 @@
+[
+  {
+    "source": "SUB_PURI_132",
+    "target": "HOSP_PURI_DHH",
+    "type": "POWER",
+    "description": "11kV feeder line powering Puri DHH"
+  },
+  {
+    "source": "SUB_PURI_132",
+    "target": "WATER_PURI_MAIN",
+    "type": "POWER",
+    "description": "Dedicated line to Puri Water Works"
+  },
+  {
+    "source": "SUB_PURI_132",
+    "target": "FUEL_PURI_DEPOT",
+    "type": "POWER",
+    "description": "Feeder to IOCL fuel terminal"
+  },
+  {
+    "source": "SUB_PURI_132",
+    "target": "SHELTER_PURI_BALIAPANDA",
+    "type": "POWER",
+    "description": "Power to Baliapanda cyclone shelter"
+  },
+  {
+    "source": "SUB_GOP_33",
+    "target": "HOSP_GOP_CHC",
+    "type": "POWER",
+    "description": "Feeder to Gop Community Health Centre"
+  },
+  {
+    "source": "SUB_GOP_33",
+    "target": "WATER_GOP_LIFT",
+    "type": "POWER",
+    "description": "Power to Kushabhadra river lift pump"
+  },
+  {
+    "source": "SUB_NIMAPADA_33",
+    "target": "HOSP_NIMAPADA_SDH",
+    "type": "POWER",
+    "description": "Feeder to Nimapada Sub-Divisional Hospital"
+  },
+  {
+    "source": "SUB_ASTARANGA_33",
+    "target": "SHELTER_ASTARANGA",
+    "type": "POWER",
+    "description": "Coastal feeder line to Astaranga refuge shelter"
+  },
+  {
+    "source": "SUB_PARADIP_132",
+    "target": "HOSP_PARADIP_PORT",
+    "type": "POWER",
+    "description": "Grid power to Paradip Port Trust Hospital"
+  },
+  {
+    "source": "SUB_PARADIP_132",
+    "target": "WATER_PARADIP_INTAKE",
+    "type": "POWER",
+    "description": "Main power to Taladanda canal intake"
+  },
+  {
+    "source": "SUB_PARADIP_132",
+    "target": "FUEL_PARADIP_TERMINAL",
+    "type": "POWER",
+    "description": "Power to Paradip bulk fuel pumps"
+  },
+  {
+    "source": "SUB_KUJANG_33",
+    "target": "HOSP_KUJANG_CHC",
+    "type": "POWER",
+    "description": "Power to Kujang Community Health Centre"
+  },
+  {
+    "source": "SUB_KUJANG_33",
+    "target": "SHELTER_ERSAMA_MCS",
+    "type": "POWER",
+    "description": "Transmission to Ersama multipurpose shelter"
+  },
+  {
+    "source": "WATER_PURI_MAIN",
+    "target": "HOSP_PURI_DHH",
+    "type": "WATER",
+    "description": "Piped drinking and medical sterilization water supply"
+  },
+  {
+    "source": "WATER_GOP_LIFT",
+    "target": "HOSP_GOP_CHC",
+    "type": "WATER",
+    "description": "Drinking water connection to Gop CHC"
+  },
+  {
+    "source": "WATER_PARADIP_INTAKE",
+    "target": "HOSP_PARADIP_PORT",
+    "type": "WATER",
+    "description": "Potable and cooling water supply to Port Hospital"
+  },
+  {
+    "source": "FUEL_PURI_DEPOT",
+    "target": "HOSP_PURI_DHH",
+    "type": "ACCESS",
+    "description": "Road supply corridor for emergency diesel refueling"
+  },
+  {
+    "source": "FUEL_PARADIP_TERMINAL",
+    "target": "HOSP_PARADIP_PORT",
+    "type": "ACCESS",
+    "description": "Direct port access fuel replenishment"
+  },
+  {
+    "source": "HOSP_GOP_CHC",
+    "target": "HOSP_NIMAPADA_SDH",
+    "type": "ACCESS",
+    "description": "Patient transfer corridor via Gop-Nimapada link road"
+  }
+]
