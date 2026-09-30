@@ -19,7 +19,7 @@ interface SatelliteVisionInspectorProps {
 export const SatelliteVisionInspector: React.FC<SatelliteVisionInspectorProps> = ({
   isOpen,
   onClose,
-  apiBaseUrl = "http://127.0.0.1:8000"
+  apiBaseUrl = ""
 }) => {
   const [tiles, setTiles] = useState<SatelliteTileItem[]>([]);
   const [selectedTileId, setSelectedTileId] = useState<string>("PARADIP_SUBSTATION");
